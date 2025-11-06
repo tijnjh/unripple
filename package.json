@@ -2,13 +2,19 @@
   "name": "rippled",
   "version": "0.1.0",
   "description": "utilities for ripple-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tijnjh/rippled.git"
+  },
+  "license": "MIT",
+  "author": "tijnjh",
   "type": "module",
   "exports": {
     ".": "./dist/index.js"
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
