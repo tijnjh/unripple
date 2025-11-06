@@ -1,10 +1,10 @@
 {
-  "name": "rippled",
+  "name": "unripple",
   "version": "0.1.0",
   "description": "utilities for ripple-ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tijnjh/rippled.git"
+    "url": "git+https://github.com/tijnjh/unripple.git"
   },
   "license": "MIT",
   "author": "tijnjh",
