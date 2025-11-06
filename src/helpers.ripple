@@ -1,0 +1,11 @@
+import type { Tracked } from "ripple";
+
+/** helper to get a tracked value in ts files */
+export function getTracked<T>(tracked: Tracked<T>) {
+  return @tracked;
+}
+
+/** helper to set a tracked value in ts files */
+export function setTracked<T>(tracked: Tracked<T>, newValue: T) {
+  @tracked = newValue;
+}

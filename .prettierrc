@@ -1,0 +1,6 @@
+{
+  "plugins": [
+    "@ripple-ts/prettier-plugin",
+    "@trivago/prettier-plugin-sort-imports"
+  ]
+}

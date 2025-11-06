@@ -1,0 +1,28 @@
+{
+  "name": "rippled",
+  "version": "0.1.0",
+  "description": "utilities for ripple-ts",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build && tsc"
+  },
+  "devDependencies": {
+    "@ripple-ts/prettier-plugin": "^0.2.158",
+    "@ripple-ts/vite-plugin": "^0.2.158",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "ripple": "^0.2.158"
+  }
+}
